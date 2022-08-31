@@ -1,0 +1,34 @@
+*{
+    font-family: 'Poppins', sans-serif;
+}
+
+.banner{
+    margin-top: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.btn-container{
+    margin-top: 180px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.btn{
+    padding: 16px 111px;
+    background: #FFA451;
+    color: white;
+    text-align: center;
+    border: none;
+    border-radius: 10px;
+    font-size: 1.1rem;
+}
+
+.btn:hover{
+    cursor: pointer;
+    color: black ;
+    background: #F15C3B;
+    transition: 300ms;
+}
