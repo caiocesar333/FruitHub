@@ -84,8 +84,40 @@ body{
     flex-flow: column wrap;
 }
 
-#text-section .btn-container{
-   
-}
 
 /* ----------------- TERCEIRA PÁGINA -----------------*/
+
+.name-input{
+    padding: 16px 111px;
+    text-align: center;
+    background: #F7F5F5;
+    border-radius: 10px;
+    border: none;
+    font-weight: bold;
+}
+
+/* ----------------- QUARTA PÁGINA -----------------*/
+
+.nav-text{
+    position: absolute;
+    align-items: center;
+
+}
+
+.nav-bar{
+    padding-top: 48px;
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: right;
+}
+.search-bar{
+    border-radius: 16px;
+    border-width: thin;
+    margin-right: 20px;
+    padding: 5px;
+}
+
+.icon{
+    margin-right: 20px;
+}
