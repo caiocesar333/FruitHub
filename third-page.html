@@ -12,6 +12,7 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="/styles/style.css" />
+    <script src="/js/index.js" defer></script>
   </head>
   <body>
     <section id="image-section">
@@ -28,13 +29,20 @@
         <div class="text-div">
           <div class="text">
             <h2>What is your firstname?</h2>
-            <input class="name-input" type="text" placeholder="Chris">
+            <input
+              class="name-input"
+              name="name"
+              id="name"
+              type="text"
+              placeholder="Chris"
+            />
           </div>
         </div>
 
         <div class="btn-container">
-          <a href="fourth-page.html">
-            <button class="btn">Start Ordering</button>
+            <button type="submit" class="btn" id="send" value="send">
+              Start Ordering
+            </button>
           </a>
         </div>
       </div>
