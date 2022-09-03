@@ -6,7 +6,7 @@ function readUrl(){
     const nameParam = urlParams.get("name");
     
     console.log(nameParam)
-    document.getElementById('name-output').innerText == "Welcome, ${nameParam}";
+    document.getElementById('name-output').innerText = `Welcome, ${nameParam}`;
 }
 
 readUrl();
