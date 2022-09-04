@@ -103,6 +103,10 @@ body {
   align-items: center;
 }
 
+#name-output{
+  padding-left: 80px;
+}
+
 .nav-bar {
   padding-top: 48px;
   position: relative;
@@ -130,6 +134,10 @@ body {
 
 .fa-search {
   align-self: center;
+}
+
+.sort{
+  visibility: hidden;
 }
 
 /* FILTRO DE PRODUTOS */
@@ -233,7 +241,7 @@ body {
   cursor: pointer;
 }
 
-.text-filter:first-child {
+.text-filter:hover:first-child {
   opacity: 1;
 }
 
@@ -244,6 +252,7 @@ body {
 .text-filter:hover:nth-child(3) {
   opacity: 0.5;
 }
+
 
 /* ----------------- DESCRIÇÕES-----------------*/
 
@@ -365,19 +374,22 @@ body {
 }
 
 /* ----------------- RESPONSIVIDADE-----------------*/
-@media screen and (max-width:300px) {
+@media screen and (max-width:280px) {
+
 
   .btn-container a{
     text-decoration: none;
   }
+
   .btn{
     display: flex;
     justify-content: center;
     width: 250px;
     font-size: 0.8em;
   }
+
   .hero{
-    width: 250px;
+    width: 280px;
     left: -5px;
   }
 
@@ -391,13 +403,13 @@ body {
     padding: 20px;
   }
 
-  h2{
+  .text h2{
     font-size: 0.8em;
-    font-weight: bold;
+    font-weight: bolder;
     padding-right: 23px;
   }
 
-  p{
+  .text p{
     font-size: 0.8em;
     font-weight: lighter;
   }
@@ -410,14 +422,121 @@ body {
     width: 250px;
   }
 
-  .text h2{
+  .firstname{
     font-weight: normal;
-    margin-right: 77px;
+    margin-right: 78px;
   }
 
   .text .name-input{
     margin-right: 20px;
     width: 20px;
   }
+
+  .banner-div .shadow{
+    margin-left: 20px;
+  }
+
+  /* RESPONSIVIDADE DA QUARTA PÁGINA */
+
+  #name-output{
+    font-size: 0.8em;
+    margin-top:30px;
+    margin-left: 20px;
+    padding-left: 0;
+  }
+  
+  .icon {
+    position: relative;
+    top: -38px;
+  }
+
+  .search-bar{
+    margin-top: 30px;
+    margin-left: 20px;
+    font-size: 0.6em;
+  }
+
+  .nav-filter{
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    padding: 0;
+    width: 50px;
+    height: 32px;
+  }
+  .btn-filter{
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    max-width: 80px;
+    margin-left: 10px;
+  }
+
+  .product-text-div .text{
+    margin-left: 20px;
+    margin-top: 50px;
+    font-weight: lighter;
+  }
+
+  .product-container{
+    display: flex;
+    width: 280px;
+    flex-flow: row nowrap;
+  }
+
+  .pro{
+    margin-left: 0;
+  }
+
+  .product-text-div{
+    width: 280px;
+    display: flex;
+    padding: 0;
+  }
+
+  .product-text-div .text-filter{
+    margin-left: 0;
+    padding: 4px;
+  }
+
+  .text-filter{
+    font-weight: lighter;
+  }
+
+  .text-filter:hover:first-child {
+    opacity: 1;
+  }
+  .text-filter:hover:nth-child(2) {
+    opacity: 1;
+  }
+  .text-filter:hover:nth-child(3) {
+    opacity: 1;
+  }
+
+  .pro-des-name h2{
+    font-size: 24px;
+    margin-right: 40px;
+  }
+  .pro-des{
+    padding-left: 10px;
+  }
+
+  .pro-des-detail .btn{
+    width: 100px;
+    margin-right: 5px;
+  }
+
+  .heart{
+    margin-top: 20px;
+  }
+
+  .sort{
+    display: block;
+    position: relative;
+    top: 38px;
+    left: 20px;
+    visibility: visible;
+  }
+
 
 }
