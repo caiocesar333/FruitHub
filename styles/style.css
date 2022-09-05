@@ -374,7 +374,7 @@ body {
 }
 
 /* ----------------- RESPONSIVIDADE-----------------*/
-@media screen and (max-width:280px) {
+@media screen and (max-width:540px) {
 
 
   .btn-container a{
@@ -537,6 +537,15 @@ body {
     left: 20px;
     visibility: visible;
   }
+}
 
-
+@media screen and (min-width: 540px) {
+  .nav-bar{
+    padding-top: 78px;
+  }
+  .text-filter{
+    display: inline;
+    padding: 0;
+    margin-left: 80px;
+  }
 }
