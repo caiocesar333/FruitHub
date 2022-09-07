@@ -268,8 +268,8 @@ body {
 }
 
 .product-image-des img {
-  width: 176px;
-  height: 176px;
+  width: 150px;
+  height: 150px;
 }
 
 .pro-des-detail {
@@ -339,6 +339,7 @@ body {
 .pro-des-price .price {
   color: black;
   margin-left: 50px;
+  margin-top: 20px;
 }
 
 .pro-des {
@@ -465,8 +466,12 @@ body {
 }
 
 /* ----------------- RESPONSIVIDADE-----------------*/
-@media screen and (max-width:540px) {
+/* @media screen and (max-width:540px) {
 
+  .principal-banner a{
+   margin-left: 20px;
+  }
+  
 
   .btn-container a{
     text-decoration: none;
@@ -529,7 +534,7 @@ body {
 
   /* RESPONSIVIDADE DA QUARTA PÁGINA */
 
-  #name-output{
+  /* #name-output{
     font-size: 0.8em;
     margin-top:30px;
     margin-left: 20px;
@@ -639,4 +644,4 @@ body {
     padding: 0;
     margin-left: 80px;
   }
-}
+} */ 
