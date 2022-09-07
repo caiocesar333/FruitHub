@@ -7,16 +7,18 @@ body {
   padding: 0;
 }
 
-/* PRIMEIRA PÁGINA*/
+/* ----------------- INDEX  -----------------*/
 .principal-banner {
   margin-top: 50px;
   width: 100%;
+  height: 100%;
   display: flex;
   justify-content: center;
+  align-items: center;
 }
 
 .principal-banner img {
-  margin-top: 50px;
+  margin-top: 200px;
 }
 
 .btn-container {
@@ -254,7 +256,7 @@ body {
 }
 
 
-/* ----------------- DESCRIÇÕES-----------------*/
+/* ----------------- DESCRIÇÕES DOS PRODUTOS-----------------*/
 
 .product-image-des {
   width: 100%;
@@ -371,6 +373,95 @@ body {
 
 .combo-box h5{
     padding-top: 70px;
+}
+
+/* ----------------- CARRINHO-----------------*/
+
+.background{
+  width: 100%;
+  height: 100%;
+  background: #f08626;
+  display: flex;
+  justify-content: center;
+  color: white;
+}
+
+.pro-cart-container{
+  display: flex;
+  justify-content: center;
+  flex-direction: column ;
+}
+.pro-cart{
+  margin-top: 50px;
+  margin-left: 50px;
+  margin-right: 50px;
+  display: flex;
+  width: 400px;
+  height: auto;
+  justify-content: space-evenly;
+  border-radius: 10px;
+}
+
+.pro-cart img{
+  width: 40px;
+  height: 40px;
+  margin-top: 6px;
+  align-self: center;
+  background: #F1EFF6;
+  padding: 30px;
+  border-radius: 10px;
+}
+
+.pro-cart h5, p{
+  padding: 0;
+  margin: 5px;
+}
+
+.pro-cart p {
+  font-size: 0.8em;
+}
+
+
+.pro-cart .minus{
+  align-self: center;
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
+  border-radius: 30px;
+  background-color: #FFF2E7;
+  color: #f08626;
+  text-align: center;
+}
+
+.pro-cart .minus:hover {
+  background: #f08626;
+  color: black;
+  transition: 0.2s ease;
+  cursor: pointer;
+}
+
+.total-price{
+  margin-top: 100px;
+  margin-left: 85px;
+  width: 200px;
+  height: 210px;
+  padding: 0;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+}
+
+.total-price h3,h4{
+  margin: 0;
+}
+
+.total-price-btn{
+  margin-top: 100px;
+  padding: 0;
+}
+
+.checkout-container{
+  display: flex;
 }
 
 /* ----------------- RESPONSIVIDADE-----------------*/
