@@ -626,19 +626,20 @@
     justify-content: center;
     margin-left: 450px;
   }
+
 }
 
 @media screen and (min-width: 1300px){
   .search-bar {
     margin-top: 50px;
-    margin-right: 600px;
+    margin-right: 670px;
     font-size: 0.9em;
   }
 
   .nav-filter {
     display: flex;
     justify-content: center;
-    margin-left: 580px;
+    margin-left: 700px;
   }
 
   .pro-des .btn{
